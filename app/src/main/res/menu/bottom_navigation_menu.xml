@@ -2,10 +2,24 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/home"
         android:icon="@drawable/ic_baseline_home_24"
-        android:title="홈"
-        />
+        android:title="홈" />
+
+    <item android:id="@+id/community"
+        android:icon="@drawable/ic_baseline_person_pin_24"
+        android:title="커뮤니티"/>
+
+    <item android:id="@+id/product"
+        android:icon="@drawable/ic_baseline_person_pin_24"
+        android:title="제품"/>
+
+    <item android:id="@+id/news"
+        android:icon="@drawable/ic_baseline_person_pin_24"
+        android:title="뉴스"/>
+
     <item android:id="@+id/myPage"
         android:icon="@drawable/ic_baseline_person_pin_24"
-        android:title="나의 정보"/>
+        android:title="마이"/>
+
+<!--    TODO: 아이콘 맞추기-->
 
 </menu>

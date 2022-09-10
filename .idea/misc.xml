@@ -3,17 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/acer/AndroidStudioProjects/ZIWOOZI/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1695" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/ZIWOOZI/app/src/main/res/drawable/button_border.xml" value="0.187" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/ZIWOOZI/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1695" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/ZIWOOZI/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.18" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/ZIWOOZI/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.18" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/ZIWOOZI/app/src/main/res/drawable/ic_baseline_person_pin_24.xml" value="0.1695" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/ZIWOOZI/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1695" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/ZIWOOZI/app/src/main/res/drawable/selector_menu_color.xml" value="0.1695" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/ZIWOOZI/app/src/main/res/drawable/splash.xml" value="0.2" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/ZIWOOZI/app/src/main/res/layout/acticity_start.xml" value="0.176" />
-        <entry key="..\:/Users/acer/AndroidStudioProjects/ZIWOOZI/app/src/main/res/layout/activity_add_article.xml" value="0.1" />
-        <entry key="..\:/Users/acer/AndroidStudioProjects/ZIWOOZI/app/src/main/res/layout/activity_main.xml" value="0.12" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/ZIWOOZI/app/src/main/res/layout/activity_add_article.xml" value="0.264" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/ZIWOOZI/app/src/main/res/layout/activity_main.xml" value="0.152" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/ZIWOOZI/app/src/main/res/layout/activity_main2.xml" value="0.23822463768115942" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/ZIWOOZI/app/src/main/res/layout/activity_splash.xml" value="0.16" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/ZIWOOZI/app/src/main/res/layout/activity_start.xml" value="0.13541666666666666" />
-        <entry key="..\:/Users/acer/AndroidStudioProjects/ZIWOOZI/app/src/main/res/layout/fragment_home.xml" value="0.12335359675785208" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/ZIWOOZI/app/src/main/res/layout/fragment_home.xml" value="0.2" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/ZIWOOZI/app/src/main/res/layout/fragment_item.xml" value="0.12335359675785208" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/ZIWOOZI/app/src/main/res/layout/fragment_item_list.xml" value="0.264" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/ZIWOOZI/app/src/main/res/layout/fragment_mypage.xml" value="0.2536231884057971" />
