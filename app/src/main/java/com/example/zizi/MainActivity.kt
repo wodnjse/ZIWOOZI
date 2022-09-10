@@ -12,8 +12,10 @@ class MainActivity : AppCompatActivity() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        setTheme(R.style.SplashTheme)  // splash 화면
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
 
         val homeFragment = HomeFragment()
         val myPageFragment = MyPageFragment()

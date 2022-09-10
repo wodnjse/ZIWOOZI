@@ -21,6 +21,16 @@
             android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold" />
+            <!-- TODO: 글 쓰기 -> 'X' 아이콘-->
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:text="완료"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+            <!-- TODO: 오른쪽 정렬-->
 
 
     </LinearLayout>
@@ -52,7 +62,7 @@
         android:id="@+id/passageEditText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="문구"
+        android:hint="내용을 입력해주세요    "
         android:gravity="top"
         app:layout_constraintTop_toBottomOf="@+id/titleEditText"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,6 +81,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/photoImageView"
         />
+
     <ImageView
         android:id="@+id/photoImageView"
         android:layout_width="230dp"
