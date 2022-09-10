@@ -25,6 +25,7 @@
             android:layout_gravity="center"
             android:src="@drawable/splash2"
             android:layout_weight="1"/>
+
     </LinearLayout>
 
 

@@ -47,7 +47,7 @@ class SplashActivity : AppCompatActivity() {
         loadSplashScreen()
     }
 
-        public fun loadSplashScreen(){
+        private fun loadSplashScreen(){
             Handler().postDelayed({
                 // You can declare your desire activity here to open after finishing splash screen. Like MainActivity
                 val intent = Intent(this, HomeFragment::class.java)
