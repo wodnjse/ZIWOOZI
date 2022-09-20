@@ -3,6 +3,7 @@ package com.example.zizi.home
 import android.app.Activity
 import android.content.Intent
 import android.content.pm.PackageManager
+import android.database.DatabaseErrorHandler
 import android.net.Uri
 import android.os.Bundle
 import android.widget.Button
@@ -53,7 +54,7 @@ class AddArticleActivity: AppCompatActivity() {
                     showPermissionContextPopup()
                 }
                 else -> {
-                    requestPermissions(arrayOf(android.Manifest.permission.READ_EXTERNAL_STORAGE),1010)
+                    requestPermissions(arrayOf(android.Manifest.permission.READ_EXTERNAL_STORAGE),1000)
 
                 }
             }
@@ -65,12 +66,53 @@ class AddArticleActivity: AppCompatActivity() {
             val passage = findViewById<EditText>(R.id.passageEditText).text.toString()
             val Id = auth.currentUser?.uid.orEmpty()
 
-            val model = ArticleModel(Id,title,System.currentTimeMillis(),passage,"")
-            articleDB.push().setValue(model)
-            finish()
+
+            if (selectedUri != null){
+                val photoUri = selectedUri ?: return@setOnClickListener
+                uploadPhoto(photoUri,
+                    successHandler = { uri ->
+                        upload(Id,title,passage,uri)
+                    },
+                    errorHandler = {
+                        Toast.makeText(this,"사진 업로드를 실패했습니다",Toast.LENGTH_SHORT).show()
+                    }
+
+                )
+            } else{
+                upload(Id,title,passage,"")
+            }
+
 
         }
     }
+
+    private fun uploadPhoto(uri: Uri,successHandler: (String)->Unit, errorHandler:() -> Unit){
+        val fileName = "${System.currentTimeMillis()}.png"
+        storage.reference.child("article/photo").child(fileName)
+            .putFile(uri)
+            .addOnCompleteListener{
+                if(it.isSuccessful){
+                    storage.reference.child("article/photo").child(fileName)
+                        .downloadUrl
+                        .addOnSuccessListener {
+                            uri ->
+                            successHandler(uri.toString())
+                        }.addOnFailureListener{
+                            errorHandler()
+                        }
+                } else{
+                    errorHandler()
+                }
+            }
+    }
+
+    private fun upload(Id:String,title:String,passage:String,imageUrl:String){
+        val model = ArticleModel(Id,title,System.currentTimeMillis(),passage,imageUrl)
+        articleDB.push().setValue(model)
+        finish()
+    }
+
+
 
     override fun onRequestPermissionsResult(
         requestCode: Int,
@@ -80,7 +122,7 @@ class AddArticleActivity: AppCompatActivity() {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
 
         when (requestCode){
-            1010 ->
+            1000 ->
                 if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED){
                     startContentProvider()
                 } else{

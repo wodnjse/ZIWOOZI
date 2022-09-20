@@ -63,16 +63,16 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
 
         fragmentHomeBinding.addFloatingButton.setOnClickListener{
-            //if (auth.currentUser != null) {
+            if (auth.currentUser != null) {
                 val intent = Intent(
                     requireContext(),
                     AddArticleActivity::class.java
                 )  // context는 null 값도 허용해 줘서 requireContext사용함
                 startActivity(intent)
-            //}else{
-            //    Snackbar.make(view,"로그인 후 사용해주세요",Snackbar.LENGTH_LONG).show()
+            }else{
+                Snackbar.make(view,"로그인 후 사용해주세요",Snackbar.LENGTH_LONG).show()
 
-            //}
+            }
         }
 
 
