@@ -8,25 +8,25 @@
 
     <FrameLayout
         android:id="@+id/fragmentContainer"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
         android:layout_width="0dp"
-        android:layout_height="0dp" />
-
-   <com.google.android.material.bottomnavigation.BottomNavigationView
-       android:id="@+id/bottomNavigationView"
-       android:layout_width="0dp"
-       android:layout_height="wrap_content"
-       app:itemIconTint="@drawable/selector_menu_color"
-       app:itemRippleColor="@null"
-       app:itemTextColor="@color/black"
-       app:menu="@menu/bottom_navigation_menu"
-       app:layout_constraintBottom_toBottomOf="parent"
-       app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintStart_toStartOf="parent" />
-
+        android:layout_height="wrap_content"
+        app:itemIconTint="@drawable/selector_menu_color"
+        app:itemRippleColor="@null"
+        app:itemTextColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_navigation_menu" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
