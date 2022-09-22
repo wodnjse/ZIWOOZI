@@ -34,6 +34,35 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586483747851:android:b1a3c918c107fc54e50b0e",
+        "android_client_info": {
+          "package_name": "com.zizi.apps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586483747851-059b4udkh311bigb0k0kn37fki1feehr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACjom8JXUK99b9q7Ciap_AZ_yalxPRWs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586483747851-059b4udkh311bigb0k0kn37fki1feehr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"
