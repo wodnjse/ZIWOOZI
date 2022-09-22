@@ -5,11 +5,11 @@ import android.view.View
 import android.widget.Toast
 import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.Fragment
-import com.example.zizi.R
-import com.example.zizi.databinding.FragmentMypageBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
+import com.zizi.apps.R
+import com.zizi.apps.databinding.FragmentMypageBinding
 
 
 class MyPageFragment : Fragment(R.layout.fragment_mypage) {
