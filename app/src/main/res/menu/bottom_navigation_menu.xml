@@ -4,6 +4,19 @@
         android:icon="@drawable/ic_baseline_home_24"
         android:title="홈"
         />
+
+    <item android:id="@+id/storePage"
+        android:title="상품"
+        android:icon="@drawable/ic_baseline_local_grocery_store_24"
+        />
+
+    <item android:id="@+id/newPage"
+        android:title="뉴스"
+        android:icon="@drawable/ic_baseline_chrome_reader_mode_24"
+        />
+
+
+
     <item android:id="@+id/myPage"
         android:icon="@drawable/ic_baseline_person_pin_24"
         android:title="나의 정보"/>

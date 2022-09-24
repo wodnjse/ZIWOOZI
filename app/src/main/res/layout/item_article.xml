@@ -27,7 +27,9 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/thumbnailImageView"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:privateImeOptions="defaultInputmode=korean"
+        />
 
     <TextView
         android:id="@+id/dateTextView"
@@ -36,7 +38,9 @@
         android:layout_marginTop="6dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/titleTextView"
-        app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+        android:privateImeOptions="defaultInputmode=korean"
+        />
 
     <TextView
         android:id="@+id/priceTextView"
@@ -48,7 +52,9 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/titleTextView"
-        app:layout_constraintTop_toBottomOf="@+id/dateTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/dateTextView"
+        android:privateImeOptions="defaultInputmode=korean"
+        />
 
 
     <View
