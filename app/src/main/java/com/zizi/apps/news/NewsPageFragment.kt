@@ -1,7 +1,7 @@
-package com.example.zizi.news
+package com.zizi.apps.news
 
 import androidx.fragment.app.Fragment
-import com.example.zizi.R
+import com.zizi.apps.R
 
 class NewsPageFragment : Fragment(R.layout.fragment_news) {
 }
