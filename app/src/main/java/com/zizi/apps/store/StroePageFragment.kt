@@ -1,7 +1,7 @@
-package com.example.zizi.store
+package com.zizi.apps.store
 
 import androidx.fragment.app.Fragment
-import com.example.zizi.R
+import com.zizi.apps.R
 
 class StroePageFragment :  Fragment(R.layout.fragment_store){
 }

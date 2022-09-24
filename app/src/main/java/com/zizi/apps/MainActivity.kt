@@ -3,9 +3,11 @@ package com.zizi.apps
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
+import com.example.zizi.news.NewsPageFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.zizi.apps.home.HomeFragment
 import com.zizi.apps.mypage.MyPageFragment
+import com.zizi.apps.store.StroePageFragment
 
 class MainActivity : AppCompatActivity() {
 
