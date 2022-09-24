@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical">
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        app:cardCornerRadius="22dp">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/bannerImg"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="200dp"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@drawable/news_card1"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/categoryTag"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="8dp"-->
+<!--                android:text="종합"-->
+<!--                android:textColor="#2aaf62"-->
+<!--                android:textSize="16dp"-->
+<!--                android:textStyle="bold"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/headTitle"-->
+<!--                android:layout_width="260dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                android:layout_marginLeft="8dp"-->
+<!--                android:ellipsize="end"-->
+<!--                android:maxLines="3"-->
+<!--                android:minLines="2"-->
+<!--                android:text="전체 바다거북 52%가 플라스틱 먹는다"-->
+<!--                android:textColor="#000"-->
+<!--                android:textSize="28dp" />-->
+
+<!--        </LinearLayout>-->
+
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+</LinearLayout>

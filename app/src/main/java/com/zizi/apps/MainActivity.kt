@@ -16,6 +16,9 @@ class MainActivity : AppCompatActivity() {
 
         val homeFragment = HomeFragment()
         val myPageFragment = MyPageFragment()
+        val newPageFragment = NewsPageFragment()
+        val stroePageFragment = StroePageFragment()
+
 
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
 
@@ -25,6 +28,8 @@ class MainActivity : AppCompatActivity() {
             when(it.itemId){
                 R.id.home -> replaceFragment(homeFragment)
                 R.id.myPage -> replaceFragment(myPageFragment)
+                R.id.newPage -> replaceFragment(newPageFragment)
+                R.id.storePage -> replaceFragment(stroePageFragment)
             }
             true
         }

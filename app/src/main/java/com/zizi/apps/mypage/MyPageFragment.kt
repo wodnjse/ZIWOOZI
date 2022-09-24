@@ -45,15 +45,6 @@ class MyPageFragment : Fragment(R.layout.fragment_mypage) {
 
                             }
                         }
-
-                    // addOnCompleteListener() 는 파라미터로 Activity를 받는데, 일반적인 액티비티 영역에서는 this로 사용하지만,
-                    // 이번에는 Fragment영역이므로 activity로 전달해줘야 함
-                    // activity 변수는 nullable이기 때문에 이를 해결하는 방법으로 requireActivity()를 사용하면 되지만,
-                    // requireActivity는 nullsafe이므로 만에 하나 null이 들어오면 앱이 죽어버림
-                    // 따라서 절대 null이 들어가지 않을 부분에서만 requireActivity를 사용해줘야 함
-                    // 가급적이면 그냥 activity?.let{}으로 코드들을 감싸서 사용할 것을 추천
-
-
                 } else {
                     // todo 로그 아웃
                     auth.signOut()
