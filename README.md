@@ -51,7 +51,6 @@
 style="width: 14px;"> https://www.figma.com/file/7B1IrCBirgaNuuEetdZLcp/%EC%A7%80%EC%9A%B0%EC%A7%80-%EB%94%94%EC%9E%90%EC%9D%B8?node-id=236%3A1664
 </br>
 </br>
-https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png
 
 ## 🔗 Download
 <img src="https://user-images.githubusercontent.com/89503906/203732860-ef87cff6-4532-4965-a3fe-ebc6d3b22e1c.png" href="https://play.google.com/store/apps/details?id=com.zizi.apps" style="width: 300px;">
